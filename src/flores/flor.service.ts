@@ -2,7 +2,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
-import { Flor } from './flor.entity';
+import { Flor } from './flores.entity.js';
 
 @Injectable()
 export class FlorService {
